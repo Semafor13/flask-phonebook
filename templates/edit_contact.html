@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %}Phonebook - Edit Contact{% endblock %}
+
+{% block content %}
+    <h1>Edit Contact</h1>
+
+    <form action="{{ url_for('edit_contact', contact_id=contact.id) }}" method="post">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" class="form-control" value="{{ contact.name }}" required>
+        </div>
+        <div class="form-group">
+            <label for="phone_number">Phone Number</label>
+            <input type="text" name="phone_number" id="phone_number" class="form-control" value="{{ contact.phone_number }}" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Save Changes</button>
+    </form>
+
+    <a href="{{ url_for('index') }}" class="btn btn-secondary">Cancel</a>
+{% endblock %}

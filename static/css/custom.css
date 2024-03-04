@@ -1,0 +1,46 @@
+/* Настройка цвета фона для навигационной панели */
+.navbar {
+    background-color: #343a40;
+}
+
+/* Настройка цвета текста для ссылок в навигационной панели */
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+/* Настройка цвета текста для ссылок при наведении курсора в навигационной панели */
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+/* Настройка отступов для основного контента */
+.container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+/* Настройка размера и цвета текста для заголовков таблиц */
+table thead th {
+    font-size: 1.2em;
+    color: #ffffff;
+    background-color: #007bff;
+}
+
+/* Настройка цвета текста для ссылок в таблицах */
+table tbody td a {
+    color: #007bff;
+}
+
+/* Настройка цвета фона для кнопок в формах */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #0070cc;
+}
+
+/* Настройка цвета текста для кнопок в формах при наведении курсора */
+.btn-primary:hover {
+    color: #ffffff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
