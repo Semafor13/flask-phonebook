@@ -64,5 +64,8 @@ def view_contact(contact_id):
 
 if __name__ == '__main__':
     with app.app_context():
+        app.secret_key = 'super secret key'
+        app.config['SESSION_TYPE'] = 'filesystem'
+
         db.create_all()
     app.run(debug=True)
