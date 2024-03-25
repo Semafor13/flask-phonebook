@@ -2,6 +2,6 @@
 
 ## ScreenShots
 
-![img.png](https://prnt.sc/-r4LcJ2kiHbd)
+![img.png](https://img001.prntscr.com/file/img001/YZ0xUhpcRiGKIc5hGiqSrA.png)
 
-![img_1.png](https://prnt.sc/Aw8cip-BKYWQ)
+![img_1.png](https://img001.prntscr.com/file/img001/Z084Z8fiT8m9bnIBxQ2abA.png)
